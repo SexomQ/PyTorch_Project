@@ -388,3 +388,7 @@ t10k-labels-idx1-ubyte
 train-images-idx3-ubyte
 train-labels-idx1-ubyte
 *.gz
+
+data/
+document_classification/
+low*
