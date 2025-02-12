@@ -16,7 +16,7 @@ tf.random.set_seed(123)
 
 if __name__ == "__main__":
     train = tf.keras.preprocessing.image_dataset_from_directory(
-        user_data + '/train',
+        user_data + '/train_processed',
         labels="inferred",
         label_mode="categorical",
         class_names=["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"],
